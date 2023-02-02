@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+   
+    <!-- ICONSCOUT CDN -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+    
+    <!-- GOOGLE FONTS (Montserrat) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+   
+    
+    <link rel="stylesheet" href="./css/style.css">
+     <link rel="stylesheet" href="./css/contact.css">
+
+</head>
+<body>
+    <nav>
+       <div class="container nav__container">
+           <a href="index.html"><h4>EDUERA</h4></a>
+           <ul class="nav__menu">
+              <li> <a href="index.html">Home</a> </li>
+              <li> <a href="about.html">About</a> </li>
+              <li> <a href="courses.html">Courses</a> </li>
+              <li> <a href="contact.html">Contact</a> </li>
+           </ul>
+           <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+           <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+       </div>
+    </nav>
+    <!-- END OF NAV-BAR -->
+
+   <form action="mailto:sagtadivas@gmail.com" name="myForm"  onsubmit="return validateForm()" method="post" class="container con__form" enctype="text/plain">
+      <h1>Feel free to contact us :</h1>
+
+           <div class="contact__forms" >
+           <article class="field" >
+              <span class="type">Name :</span>
+              <input type="text" name="Name" id="name" >
+              <p class="error" id="username"></p>
+           </article>
+
+           <article class="field" >
+            <span class="type">Email : </span>
+            <input type="text" name="E-mail"  id="email" >
+            <p class="error" id="usermail"></p>
+         </article>
+
+         <article class="field" >
+            <span class="type">PhNo. :</span>
+            <input type="phone" name="Phone-Number" id="phone"  >
+            <p class="error" id="userphone"></p>
+         </article>
+
+         <article class="field" >
+            <input class="button" type="submit" value="Submit" >
+            <p class="error"></p>
+         </article>
+       </div>
+   </form>
+
+    <script src="mian.js"></script>
+</body>
+</html>

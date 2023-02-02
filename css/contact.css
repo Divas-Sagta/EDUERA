@@ -1,0 +1,65 @@
+.con__form{
+    margin-top: 10rem;
+    padding: 2rem;
+    position: center;
+    background-color: var(--color-bg1);
+    border-radius: 3px;
+}
+h1{
+    text-align: center;
+    color: var(--color-primary);
+
+}
+
+.contact__forms *
+{
+    margin-top: 1rem;
+    padding: 10px;
+}
+.field
+{
+    background-color: var(--color-bg2);
+}
+.field .type
+{   
+    margin-right: 1rem;
+    padding: 1rem;
+    font-size: 25px;
+    
+}
+.field input{
+    width: 75%;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 15px;
+    /* position: relative; */
+}
+.field .error{
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+    /* position: absolute; */
+   
+    /* top: 222rem;
+    left: 197rem; */
+}
+
+
+.field .button{
+    width: fit-content;
+    font-weight: 300;
+    background: red;
+    color: white;
+    transition: var(--transition);
+
+}
+.field .button:hover{
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid white;
+}
+.field p{
+    margin-top: -10px;
+    margin-left: 142px;
+}
+
